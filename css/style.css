@@ -3,14 +3,61 @@ body, html {
     padding: 0
 }
 
-.header {
-    display: flex;
-    
-    align-items: center;
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+}
+
+body {
+    background-image: url("../images/main-background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    font-family: "Nunito Sans";
 }
 
 .container {
-    display: flex;
-    background: black;
     width: 1180px;
+    margin: 0 auto;
+} 
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+} 
+
+.logo {
+    margin-right: 188px;
+}
+
+.logo svg {
+    vertical-align: bottom;
+    width: 137px;
+    height: 72px;
+}
+
+.header-menu-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.header-menu-link a {
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+.header-action {
+    font-family: "Nunito Sans";
+    margin-left: auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FDFDFD;
+    border-radius: 4px;
+    background: #1A3E3E;
+    border: none;
 }
