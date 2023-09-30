@@ -36,7 +36,7 @@
                             <li class="header-menu-link"><a href="#">Контакты</a></li>
                         </ul>
                     </nav>
-                    <button class="header-action">Консультация</button>            
+                    <button class="header-action button">Консультация</button>            
             </header>
         </div>
         <section class="tour-search">
@@ -45,10 +45,73 @@
                     <h1 class="tour-search-header">Насладись прогулкой в горах
                         с командой единомышленников</h1>
                     <div class="find-tour-form">
-                        <select name="tour-location" id="" class="find-tour-form-locaton">
-                            <option value="">Локация для тура</option>
-                        </select>
-                        <input type="date">
+                        <div class="find-tour-form-element">
+                            <select name="tour-location" id="" class="find-tour-form-locaton find-tour-form-field">
+                                <option value="">Локация для тура</option>
+                            </select>
+                            <label for="tour-location">выберите из списка</label>
+                        </div>
+                        <div class="find-tour-form-element">  
+                            <input name="tour-date" type="text" class="find-tour-form-date find-tour-form-field" placeholder="Дата похода" readonly>
+                            <label for="tour-date">укажите диапазон</label>
+                        </div> 
+
+                        <div class="find-tour-form-element">
+                            <input name="tour-participants" type="text" class="find-tour-formparticipants find-tour-form-field" placeholder="Участники" readonly>
+                            <label for="tour-participants">минимум 4 человека</label>
+                        </div>
+                        <button class="find-tour-action button">Найти программу</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <div class="about-us-container">
+                    <div class="about-us-images">
+                        <img class="about-us-image-1" src="images/about-us-image-1.png" alt="">
+                        <img class="about-us-image-2" src="images/about-us-image-2.png" alt="">
+                    </div>
+                    <div class="about-us-info">
+                        <div class="about-us-main">
+                            <div class="about-us-headers">
+                                <h2 class="about-us-headers-small">о нашем походе</h2>
+                                <h2 class="about-us-headers-big">Исследуйте все горные массивы мира вместе с нами</h2>
+                            </div>
+                            <div class="about-us-main-info">
+                                Его корни уходят в один фрагмент классической латыни 45 года н.э., 
+                                то есть более двух тысячелетий назад. Ричард МакКлинток, профессор 
+                                латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых 
+                                странных слов в Lorem Ipsum, "consectetur" и занялся его поисками в 
+                                классической латинской литературе.
+                            </div>
+                            <button class="about-us-action button">Программа тура</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best-offers">
+            <div class="container">
+                <div class="best-offers-container">
+                    <div class="best-offers-info">
+                        <div class="best-offers-info-headers">
+                            <h2 class="best-offers-info-headers-small">наше предложение</div>
+                            <h2 class="best-offers-info-headers-big">Лучшие программы для тебя</div>
+                        </div>
+                        <div class="best-offers-info-main">
+                            <div class="best-offers-info-text">
+                                Его корни уходят в один фрагмент классической латыни 45 года н.э., 
+                                то есть более двух тысячелетий назад. Ричард МакКлинток, профессор 
+                                латыни из колледжа.
+                            </div>
+                            <ul class="best-offers-pluses-list">
+                                <li class="best-offers-pluses-item"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="best-offers-images">
+
                     </div>
                 </div>
             </div>

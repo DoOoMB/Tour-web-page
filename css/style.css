@@ -10,6 +10,7 @@ body, html {
 
 body {
     background-image: url("../images/main-background.png");
+    background-size: 1980px 1080px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top center;
@@ -20,6 +21,15 @@ body {
     width: 1180px;
     margin: 0 auto;
 } 
+
+.button {
+    font-family: "Nunito Sans";
+    margin-left: auto;
+    color: #FDFDFD;
+    border-radius: 4px;
+    background: #1A3E3E;
+    border: none;
+}
 
 .header {
     display: flex;
@@ -51,13 +61,146 @@ body {
 }
 
 .header-action {
-    font-family: "Nunito Sans";
-    margin-left: auto;
     padding: 12px 24px;
     font-size: 16px;
     line-height: 20px;
-    color: #FDFDFD;
-    border-radius: 4px;
-    background: #1A3E3E;
-    border: none;
 }
+
+.tour-search {
+    margin-top: 551px;
+}
+
+.tour-search-header {
+    color: #FDFDFD;
+    font-family: "NEXT ART";
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 1px;
+}
+
+.find-tour-form {
+    display: flex;
+    flex-direction: grid;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(3px);
+    padding: 40px 43px;
+    margin-top: 41px;
+    gap: 24px
+}
+
+.find-tour-form-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.find-tour-form-element label {
+    color: #FDFDFD;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 8px;
+}
+
+.find-tour-form-field {
+    height: 52px;
+    padding: 0px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
+
+    color: #FDFDFD;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    background: rgba(255, 255, 255, 0); /*задаём прозрачность*/
+
+    background: url(../images/arrow-down.png) no-repeat right;
+    background-position: right 16px top 16px;
+    padding-right: 52px;
+}
+
+.find-tour-form-date {
+    background: url(../images/calendar.png) no-repeat right;
+    background-position: right 16px top 16px;
+}
+
+
+.find-tour-form-field::-webkit-input-placeholder {
+    color: #FDFDFD;
+}
+
+.find-tour-form-locaton {
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none;
+
+    padding-right: 103px;
+} 
+
+.find-tour-action {
+    padding: 16px 36px;
+    border-radius: 4px;
+    background: #FDFDFD;
+    color: #1A3E3E;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.192px;
+    height: 52px;
+}
+
+.about-us {
+    margin-top: 182px;
+}
+
+.about-us-container {
+    display: flex;
+}
+
+.about-us-images {
+    position: relative;
+    margin-right: 250px
+}
+
+.about-us-image-2 {
+    position: absolute;
+    top: 126px;
+    left: 130px;
+}
+
+.about-us-headers {
+    margin-top: 60px;
+}
+
+.about-us-headers-small {
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.about-us-headers-big {
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    margin-top: 8px;
+}
+
+.about-us-main-info {
+    margin-top: 40px;
+    color: #18121E;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.about-us-action {
+    padding: 16px 36px;
+    color: #FDFDFD;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.192px;
+    margin-top: 40px;
+}
+
